@@ -1,6 +1,6 @@
-From:gs
-To: 1@
+From:gs@mail.com
+To: 1@mail.ru
 Cc: 
 Date: 05-27-2021
-hi
+Hi
 how are u

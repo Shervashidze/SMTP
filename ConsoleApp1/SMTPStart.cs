@@ -181,5 +181,4 @@ namespace SMTP
             return strMessage;
         }
     }
-
 }
