@@ -14,3 +14,19 @@ C:\Users\George\Desktop\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.dll
 C:\Users\George\Desktop\SMTP\ConsoleApp1\obj\Debug\net5.0\ref\SMTP.dll
 C:\Users\George\Desktop\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.pdb
 C:\Users\George\Desktop\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.genruntimeconfig.cache
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\bin\Debug\net5.0\SMTP.exe
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\bin\Debug\net5.0\SMTP.deps.json
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\bin\Debug\net5.0\SMTP.runtimeconfig.json
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\bin\Debug\net5.0\SMTP.runtimeconfig.dev.json
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\bin\Debug\net5.0\SMTP.dll
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\bin\Debug\net5.0\ref\SMTP.dll
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\bin\Debug\net5.0\SMTP.pdb
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.csprojAssemblyReference.cache
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.AssemblyInfoInputs.cache
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.AssemblyInfo.cs
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.csproj.CoreCompileInputs.cache
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.dll
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\ref\SMTP.dll
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.pdb
+C:\Users\George\Desktop\Новая папка (11)\SMTP\ConsoleApp1\obj\Debug\net5.0\SMTP.genruntimeconfig.cache

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\George\\Desktop\\SMTP\\ConsoleApp1\\SMTP.csproj",
+      "projectUniqueName": "C:\\Users\\George\\Desktop\\Новая папка (11)\\SMTP\\ConsoleApp1\\SMTP.csproj",
       "projectName": "SMTP",
-      "projectPath": "C:\\Users\\George\\Desktop\\SMTP\\ConsoleApp1\\SMTP.csproj",
+      "projectPath": "C:\\Users\\George\\Desktop\\Новая папка (11)\\SMTP\\ConsoleApp1\\SMTP.csproj",
       "packagesPath": "C:\\Users\\George\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\George\\Desktop\\SMTP\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\George\\Desktop\\Новая папка (11)\\SMTP\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\George\\AppData\\Roaming\\NuGet\\NuGet.Config",

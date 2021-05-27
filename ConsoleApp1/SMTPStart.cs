@@ -39,6 +39,7 @@ namespace SMTP
         LinkedList<String> to = new LinkedList<String>();
         int number;
         int file = 1;
+        String username = "";
 
         public SMTPServer(TcpClient client, int i)
         {
@@ -73,11 +74,14 @@ namespace SMTP
                     //message has successfully been received
                     if (strMessage.StartsWith("EHLO"))
                     {
+                        username = strMessage[5..];
                         Write("250 OK");
                     }
 
                     if (strMessage.StartsWith("RCPT TO"))
                     {
+                        strMessage = strMessage.Replace("<", "");
+                        strMessage = strMessage.Replace(">", "");
                         to.AddLast(strMessage[8..]);
                         Write("Your mail now will be sent to: " + strMessage[8..].Remove(strMessage[8..].Length - 1));
                         Write("250 OK");
@@ -86,6 +90,8 @@ namespace SMTP
                     if (strMessage.StartsWith("MAIL FROM"))
                     {
                         from = strMessage[10..];
+                        from = from.Replace("<", "");
+                        from = from.Replace(">", "");
                         Write("You are sending from: " + from.Remove(from.Length - 1));
                         Write("250 OK");
                     }
@@ -135,7 +141,13 @@ namespace SMTP
                         }
 
                         Write("Email:\n" + endMessage.ToString());
-                        string path = @"C:\Users\George\Desktop\SMTP\ConsoleApp1\Mails\HELLo\wohoo" + number.ToString() + "_" + file.ToString() + "_" + "mail.txt";
+                        string env = System.AppContext.BaseDirectory;
+                        if (!Directory.Exists(env + @"\Mails\"))
+                        {
+                            Directory.CreateDirectory(env + @"\Mails\");
+                        }
+
+                        string path = env + @"\Mails\" + number.ToString() + "_" + file.ToString() + "_" + "mail.txt";
                         file += 1;
                         using (StreamWriter sw = File.CreateText(path))
                         {
